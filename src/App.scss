@@ -2,7 +2,7 @@
 .sidebar{
   // background-color: rgba(27, 33, 48, 0.75);
   margin-left: -13px !important;
-  height: 150vh;
+  // height: 250vh;
   h1{
     margin-top: 30px !important;
     font-family: 'Poppins';
@@ -106,13 +106,31 @@ font-size: 15px;
   background: #131722BF !important;
 }
 }
+.btn5{
+  background-color: transparent !important;
+  border: none !important;
+  // margin-top: 100px;
+  margin-left:40px ;
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+  padding-right: 104px !important;
+  padding-left: 15px !important;
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+// line-height: 170%;
+&:hover{
+  background: #131722BF !important;
+}
+}
 
   .dashboard{
     background-color: #1B2130BF;
     ;
     // color:#545D69 !important;
   //   width: 80vw;
-  height: 150vh;
+  height: 220vh;
   }
   
 }
@@ -159,6 +177,76 @@ font-size: 15px;
   color: white;
   img{
     position: relative !important;
+  }
+  .card-stat{
+    border: none !important;
+    
+  }
+  .new{
+    border-left: 2px solid !important;
+    border-left-color: #FF82D4   !important ;
+    border: spacing 10px;
+    // border-collapse: separate !important; 
+    h5{
+      color: white !important;;
+     
+      margin-left: 10px !important;
+    }
+    span{
+      margin-left: 10px !important;
+
+    }
+  
+    border-left-style: dotted !important;
+  }
+
+  .card-header{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 36px;
+    padding-top: 13px !important;
+    padding-bottom: 13px !important;;
+    background: linear-gradient(95.02deg, #FF82D4 0%, #1B1378 100%) !important;
+
+
+  }
+  .card-body{
+
+    background: #1B2130BF;
+
+  }
+  .cryptocard{
+    background-image: url("Media/Mask.png");
+    background-repeat: no-repeat;
+    background-color: #1B2130BF;
+    padding: 30px !important;;
+
+
+  }
+  .axies{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 170%;
+color: #545D69;
+  }
+  .price{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 26px;
+color: #F4F6F9;
+  }
+  .stat-card{
+    // margin-left: 10px !important;
+    // margin-right: 30px !important;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    border: none !important;
   }
   .hello{
     position: absolute !important;

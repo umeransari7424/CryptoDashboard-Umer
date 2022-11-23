@@ -96,6 +96,12 @@ function Boardsidebar() {
                 &nbsp;Events
               </button>
             </div>
+            <div>
+              <button type="button" className="btn btn5 btn-primary">
+                <HiBell size={"25px"} style={{ paddingBottom: "3px" }} />{" "}
+                &nbsp;Events
+              </button>
+            </div>
             
           </div>
         </div>

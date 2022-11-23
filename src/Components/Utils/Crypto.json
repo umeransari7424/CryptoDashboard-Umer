@@ -1,0 +1,17 @@
+[
+    {
+        "img":"Assets/c1.png"   , 
+        "txt":"New Axies",
+        "price":"6,984"
+    },
+    {
+        "img":"Assets/c2.png"  ,
+        "txt":"Origins Battles",
+        "price":"2,597,681"  
+    },
+    {
+        "img":"Assets/c3.png"   ,
+        "txt":"Sales Volum",
+        "price":"1,018" 
+    }
+]
