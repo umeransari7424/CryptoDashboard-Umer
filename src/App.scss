@@ -120,7 +120,7 @@ padding: 10px 80px 10px 40px;
     ;
     // color:#545D69 !important;
     // width: 100vw;
-  height: 242vh;
+  height: 249vh;
   }
   
 }
@@ -207,10 +207,6 @@ line-height: 32px;
     border: none !important;
     
   }
-  .line{
-
-  }
-    
     h5{
       color: white !important;;
      
@@ -506,6 +502,62 @@ font-size: 15px;
 }
 .market{
   color: white ;
+  .stat-card{
+    // margin-left: 10px !important;
+    // margin-right: 30px !important;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    border: none !important;
+  }
+  .card-header{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 36px;
+    padding-top: 13px !important;
+    padding-bottom: 13px !important;;
+    background: linear-gradient(95.02deg, #FF82D4 0%, #1B1378 100%) !important;
+
+
+  }
+  .card-body{
+
+    background: #1B2130BF;
+
+  }
+  .develop-card{
+    background-color:  #1B2130 ;
+   
+  }
+  .develop{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 170%;
+/* or 20px */
+
+letter-spacing: 0.008em;
+  }
+  .sky{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 170%;
+letter-spacing: 0.008em;
+color: #D895FF;
+  }
+  .aug{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 170%;
+letter-spacing: 0.008em;
+color: #FF6262;
+  }
   .card{
     // border: none !important;
     border-radius: 15px !important;

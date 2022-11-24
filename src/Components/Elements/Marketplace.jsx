@@ -3,6 +3,7 @@ import {BsApple} from 'react-icons/bs'
 import {AiFillWindows,AiFillAndroid} from 'react-icons/ai'
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
+import {BsInfoCircleFill} from "react-icons/bs"
 import game from "../Utils/Games.json";
 // import {BsFillPlayFill} from "react-icons/bs"
 function Marketplace() {
@@ -70,7 +71,7 @@ function Marketplace() {
           </div>
           
         </div>
-        <div className="row mt-5 mx-0">
+        <div className="row mt-5 ">
                 <Carousel
                   responsive={responsive}
                   // autoPlay="true"
@@ -120,7 +121,7 @@ function Marketplace() {
                   
                 </Carousel>
         </div>
-        <div className="row mt-5 mx-0">
+        <div className="row mt-5 ">
         <Carousel
                   responsive={responsive1}
                   // autoPlay="true"
@@ -161,6 +162,72 @@ function Marketplace() {
                 </Carousel>
         
         </div>
+        <div className="row  mt-5">
+                <div className="col-md-8 mt-4">
+                <div class="card stat-card">
+                  <div class="card-header d-flex justify-content-between px-4">
+                    <div>
+                    
+                    Game Info
+                    </div>
+                  
+                  <div className='d-flex'>
+                    <div>
+                  <h6 className='mt-2'>Collectibles &nbsp;<BsInfoCircleFill/> </h6>
+                    </div>&nbsp; &nbsp;
+                    <div>
+                      <img src="Assets/c5.png" className='img-fluid' style={{width: "24px",
+height: "24px"}} alt="c5" />
+                    </div>
+                    &nbsp; &nbsp;
+                    <div>
+                      <img src="Assets/c6.png" className='img-fluid' style={{width: "24px",
+height: "24px"}} alt="c5" />
+                    </div>
+                    &nbsp; &nbsp;
+                    <div>
+                      <img src="Assets/c7.png" className='img-fluid' style={{width: "24px",
+height: "24px"}} alt="c5" />
+                    </div>
+                  </div>
+                  </div>
+                  <div class="card-body d-flex justify-content-between ">
+                    <div>
+                    <h1>What is Axie Infinity: Origins?</h1>
+                    <p>Axie Infinity Origins is a card-based strategy game where players collect, own, and use an infinite variety of creatures called Axies to battle. Players can take down evil Chimeras in the Adventure mode or challenge other players in the Arena to reach the top of the Leaderboard.</p>
+                    <br />
+                    <img src="Assets/Rectangle 19.png" className='img-fluid' alt="Rectangle" />
+
+                    </div>
+                    <div>
+                    </div>
+                   
+                  </div>
+                </div>
+                </div>
+                <div className="col-md-4 mt-4">
+                  <div className="card develop-card p-3">
+                    <div className='d-flex justify-content-between text-start'>
+                      <div >
+                        <span className='develop'>Developed by:</span> <br /><br />
+                        
+                        <span className='develop'>Official Website:</span> <br /><br />
+                        <span className='develop'>Early Access:</span> <br /><br />
+                        <span className='develop'>Operation System:</span><br /><br />
+                      </div>
+                      <div>
+                      <span className='sky'>Sky Mavis:</span> <br /><br />
+                      <span className='sky'>https://axieinfinity.com</span> <br /><br />
+                        <span className='aug'>18 Aug 2022</span> <br /><br />
+                        <span><BsApple className='mb-2' size={"25px"}/> &nbsp; 
+              <AiFillWindows className='mb-2' size={"30px"}/> &nbsp; 
+              <AiFillAndroid className='mb-2' size={"30px"}/> &nbsp;</span> <br />
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
       </div>
       
     </div>

@@ -1,6 +1,7 @@
 import React from 'react'
 // import Badge from 'react-bootstrap/Badge';
 import { HiBars3BottomRight } from 'react-icons/hi2';
+import sales from "../Utils/Sales.json"
 
 function Lunacian() {
   return (
@@ -143,41 +144,45 @@ function Lunacian() {
                   </div>
         </div>
         <div className="row py-4 px-1">
-            <div className="col-md-4">
-            <div className="card p-3 salecard">
-               <div className='d-flex justify-content-between'>
-                <div>
-                <div className='d-flex'>
-                    <div>
-                        <img src="Assets/l1.png" alt="Lunacian" />
-                    </div>
-                    <div>
-                    <div>
-                    <span className="badge location text-bg-secondary">
-                        <img src="Assets/loc1.png" alt="location"/> &nbsp;
-                        -68, -77</span>  
-                    </div>
-                        <div>
-                        <p className='hours'>17 Hours Ago</p>
-                        </div>
-                    </div>
-
-                </div>
-                </div>
-                <div className='text-end mt-1'>
-                    <div>
-                        <p className='price1'>$22,137.48</p>
-                    </div>
-                    <div>
-                       <p className='price2'>  <HiBars3BottomRight size={"25px"}/> &nbsp; 0.548</p>
-                    </div>
-                </div>
-
-               </div>
-
-
-            </div>
-            </div>
+           {
+            sales.map(item=>(
+              <div className="col-md-4 mt-3">
+              <div className="card p-3 salecard" >
+                 <div className='d-flex justify-content-between'>
+                  <div>
+                  <div className='d-flex'>
+                      <div>
+                          <img src={item.img} alt="Lunacian" />
+                      </div>
+                      <div>
+                      <div>
+                      <span className="badge location text-bg-secondary" >
+                          <img src={item.locimg} alt="location"/> &nbsp;
+                          {item.location}</span>  
+                      </div>
+                          <div>
+                          <p className='hours' >{item.hour}</p>
+                          </div>
+                      </div>
+  
+                  </div>
+                  </div>
+                  <div className='text-end mt-1'>
+                      <div>
+                          <p className='price1'>{item.price}</p>
+                      </div>
+                      <div>
+                         <p className='price2'>  <HiBars3BottomRight size={"25px"}/> &nbsp; {item.price2}</p>
+                      </div>
+                  </div>
+  
+                 </div>
+  
+  
+              </div>
+              </div>
+            ))
+           }
         </div>
         </div>
         

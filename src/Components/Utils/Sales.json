@@ -5,17 +5,59 @@
         "hour":"17 Hour Ago",
         "price": "$22,137.48",
         "price2":"0.548",
-        "color": "#FF6262"
+        "color": "#76E234",
+        "location":"-68, -77"
         
 
     },
     {
         "img": "Assets/s1.png",
-        "locimg": "Assets/l1.png",
+        "locimg": "Assets/l2.png",
         "hour":"17 Hour Ago",
         "price": "$22,137.48",
         "price2":"0.548",
-        "color": "#FF6262"
+        "color": "#FF6262",
+        "location":"-68, -77"
+
+    },
+    {
+        "img": "Assets/s1.png",
+        "locimg": "Assets/l3.png",
+        "hour":"17 Hour Ago",
+        "price": "$22,137.48",
+        "price2":"0.548",
+        "color": "#0AD4FC",
+        "location":"-68, -77"
+
+    },
+    {
+        "img": "Assets/s1.png",
+        "locimg": "Assets/l4.png",
+        "hour":"17 Hour Ago",
+        "price": "$22,137.48",
+        "price2":"0.548",
+        "color": "#D895FF",
+        "location":"-68, -77"
+
+    },
+    {
+        "img": "Assets/s1.png",
+        "locimg": "Assets/l3.png",
+        "hour":"17 Hour Ago",
+        "price": "$22,137.48",
+        "price2":"0.548",
+        "color":"#0AD4FC",
+        "location":"-68, -77"
+
+    },
+    {
+        "img": "Assets/s1.png",
+        "locimg": "Assets/l4.png",
+        "hour":"17 Hour Ago",
+        "price": "$22,137.48",
+        "price2":"0.548",
+        "color": "#D895FF",
+        "location":"-68, -77"
 
     },
     {
@@ -24,61 +66,28 @@
         "hour":"17 Hour Ago",
         "price": "$22,137.48",
         "price2":"0.548",
-        "color": "#FF6262"
+        "color": "#76E234",
+        "location":"-68, -77"
 
     },
     {
         "img": "Assets/s1.png",
-        "locimg": "Assets/l1.png",
+        "locimg": "Assets/l2.png",
         "hour":"17 Hour Ago",
         "price": "$22,137.48",
         "price2":"0.548",
-        "color": "#FF6262"
+        "color": "#FF6262",
+        "location":"-68, -77"
 
     },
     {
         "img": "Assets/s1.png",
-        "locimg": "Assets/l1.png",
+        "locimg": "Assets/l3.png",
         "hour":"17 Hour Ago",
         "price": "$22,137.48",
         "price2":"0.548",
-        "color":" #FF6262"
-
-    },
-    {
-        "img": "Assets/s1.png",
-        "locimg": "Assets/l1.png",
-        "hour":"17 Hour Ago",
-        "price": "$22,137.48",
-        "price2":"0.548",
-        "color": "#FF6262"
-
-    },
-    {
-        "img": "Assets/s1.png",
-        "locimg": "Assets/l1.png",
-        "hour":"17 Hour Ago",
-        "price": "$22,137.48",
-        "price2":"0.548",
-        "color": "#FF6262"
-
-    },
-    {
-        "img": "Assets/s1.png",
-        "locimg": "Assets/l1.png",
-        "hour":"17 Hour Ago",
-        "price": "$22,137.48",
-        "price2":"0.548",
-        "color": "#FF6262"
-
-    },
-    {
-        "img": "Assets/s1.png",
-        "locimg": "Assets/l1.png",
-        "hour":"17 Hour Ago",
-        "price": "$22,137.48",
-        "price2":"0.548",
-        "color": "#FF6262"
+        "color": "#0AD4FC",
+        "location":"-68, -77"
 
     }
     
