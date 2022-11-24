@@ -3,9 +3,11 @@ import { BrowserRouter,Routes,Route } from 'react-router-dom';
 // import Boardsidebar from './Components/Layout/Boardsidebar';
 import "bootstrap/dist/css/bootstrap.min.css";
 import Base from './Components/Layout/Base';
-import Home from './Pages/Home';
+// import Home from './Pages/Home';
 import Hero from './Components/Elements/Hero';
 import Marketplace from './Components/Elements/Marketplace';
+import Games from './Components/Elements/Games';
+import Lunacian from './Components/Elements/Lunacian';
 
 function App() {
   return (
@@ -14,7 +16,9 @@ function App() {
       <Base>
         <Routes>
           <Route index path="/" element={<Hero />} />
-          <Route index path="/marketplace" element={<Marketplace />} />
+          <Route  path="/marketplace" element={<Marketplace />} />
+          <Route  path="/game" element={<Games />} />
+          <Route  path="/lunacianexpress" element={<Lunacian />} />
           
         </Routes>
       </Base>

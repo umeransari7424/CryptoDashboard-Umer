@@ -1,43 +1,34 @@
-import React from "react";
-import { Link } from "react-router-dom";
-// import { ProSidebarProvider } from "react-pro-sidebar";
-// import { Sidebar, Menu, MenuItem, SubMenu } from "react-pro-sidebar";
+import React, { useState } from 'react';
+import Button from 'react-bootstrap/Button';
+import Offcanvas from 'react-bootstrap/Offcanvas';
+// import Sidebar from '../Layout/Sidebar';
+import {Link} from 'react-router-dom'
+import {BsList} from 'react-icons/bs';
 import { AiFillHome } from "react-icons/ai";
 import { SlHandbag } from "react-icons/sl";
 import { BsFillPlayCircleFill, BsFillStarFill } from "react-icons/bs";
 import { HiBell } from "react-icons/hi";
 
-function Boardsidebar() {
+export default function Drawer() {
+  const [show, setShow] = useState(false);
+
+  const handleClose = () => setShow(false);
+  const handleShow = () => setShow(true);
+
   return (
-    // <div className="sidebar">
-    //   <div className="container-fluid  ">
+    <>
+      <Button variant="primary" style={{background:"#000",border:"none"}}  onClick={handleShow}>
+        <BsList size={"30px"} />
+      </Button>
 
-    //     <div className="row">
-    //       <div className="col-md-3 p-3 py-5 cryptoyield">
-    //       <h1 className="text-center">CryptoYield</h1>
-    //         <ProSidebarProvider className="pro">
-    //           <Sidebar>
-    //             <Menu>
-
-    //                 <MenuItem> <AiFillHome size="25px" style={{marginBottom:"6px"}}/> &nbsp;  Home </MenuItem> <br />
-    //                 <MenuItem> <SlHandbag size="25px" style={{marginBottom:"6px"}}/> &nbsp; Market Place </MenuItem>
-
-    //               <MenuItem> <BsFillPlayCircleFill size="25px" style={{marginBottom:"6px"}}/> &nbsp; Game </MenuItem>
-    //               <MenuItem> <BsFillStarFill size="25px" style={{marginBottom:"6px"}}/> &nbsp; Lunacian Express </MenuItem>
-    //               <MenuItem> <HiBell size="25px" style={{marginBottom:"6px"}}/> &nbsp; Events </MenuItem>
-    //             </Menu>
-    //           </Sidebar>
-
-    //         </ProSidebarProvider>
-    //       </div>
-
-    //     </div>
-    //   </div>
-    // </div>
-    <div className="sidebar">
+      <Offcanvas show={show} onHide={handleClose}>
+        <Offcanvas.Header closeButton>
+        </Offcanvas.Header>
+        <Offcanvas.Body>
+        <div className="sidebar1">
       <div className="container-fluid text-start ">
         <div className="row">
-          <div className=" dashboard pt-5">
+          <div className=" dashboard pt-3">
             <div>
               <h1>
                 <img src="Assets/crypto.png" alt="crypto" />
@@ -83,14 +74,13 @@ function Boardsidebar() {
             </div>{" "}
             <br />
             <div>
-            <Link to="/lunacianexpress">
               <button type="button" className="btn btn3 btn-primary">
                 <BsFillStarFill
                   size={"25px"}
                   style={{ paddingBottom: "3px" }}
                 />{" "}
                 &nbsp;Lunacian Express
-              </button></Link>
+              </button>
             </div>{" "}
             <br />
             <div>
@@ -99,10 +89,10 @@ function Boardsidebar() {
                 &nbsp;Events
               </button>
             </div>
-            <div className="">
-              <button type="button" className="btn logout  btn-primary">
-                
-                &nbsp;Logout
+            <div>
+              <button type="button" className="btn btn5 btn-primary">
+                {" "}
+                &nbsp; &nbsp;Logout &nbsp; &nbsp;<HiBell size={"25px"} style={{ paddingBottom: "3px" }} />
               </button>
             </div>
             
@@ -110,7 +100,8 @@ function Boardsidebar() {
         </div>
       </div>
     </div>
+        </Offcanvas.Body>
+      </Offcanvas>
+    </>
   );
 }
-
-export default Boardsidebar;

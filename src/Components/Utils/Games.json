@@ -1,0 +1,38 @@
+[
+    {
+        "img":"Assets/g1.png",
+        "txt":"Axie Infinity: Origins",
+        "para":"Sky Mavis",
+        "img1":"Assets/m1.png"
+    },
+    {
+        "img":"Assets/g2.png",
+        "txt":"Axie Infinity: Origins",
+        "para":"Sky Mavis",
+        "img1":"Assets/m2.png"
+    },
+    {
+        "img":"Assets/g3.png",
+        "txt":"Axie Infinity: Origins",
+        "para":"Sky Mavis",
+        "img1":"Assets/m3.png"
+    },
+    {
+        "img":"Assets/g4.png",
+        "txt":"Axie Infinity: Origins",
+        "para":"Sky Mavis",
+        "img1":"Assets/m1.png"
+    },
+    {
+        "img":"Assets/g5.png",
+        "txt":"Axie Infinity: Origins",
+        "para":"Sky Mavis",
+        "img1":"Assets/m2.png"
+    },
+    {
+        "img":"Assets/g6.png",
+        "txt":"Axie Infinity: Origins",
+        "para":"Sky Mavis",
+        "img1":"Assets/m3.png"
+    }
+]
