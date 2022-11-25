@@ -53,7 +53,7 @@ function Hero() {
                 >
                   <div>
                     <img
-                      className="img-fluid  "
+                      className="img-fluid  heroimg"
                       width={"930px"}
                       src="Assets/BG.png"
                       alt="image2"
@@ -62,7 +62,7 @@ function Hero() {
                     <div className="hello">
                       <h3>A Nation Gather</h3>
                       <p>Origin is now available to play via Mavis Hub!</p>
-                      <div>
+                      <div className="ticketbtn">
                         <button type="button" className="btn btn-primary">
                           <b>Buy Ticket</b>
                         </button>{" "}
@@ -272,7 +272,7 @@ function Hero() {
                     <div  className="py-4">
                       
                       <br />
-                      <div className="d-flex">
+                      <div className="d-flex origin">
                         <div>
                           <img src="Assets/Rectangle 11.png" alt="Rectangle11" />
                         </div>
@@ -305,11 +305,11 @@ function Hero() {
                     <div className="py-4">
                       
                       <br />
-                      <div className="d-flex">
+                      <div className="d-flex ">
                         <div>
                           <img src="Assets/Line 1.png" className="img-fluid line" alt="Line" />
                         </div>
-                        <div className="d-flex rectangle">
+                        <div className="d-flex rectangle origin1 ">
                         <div>
                           <img src="Assets/Rectangle 22.png" alt="Rectangle11" />
                         </div>
@@ -319,7 +319,7 @@ function Hero() {
                         <h5 className="axies axie">Axie Classic</h5>
                          
                       </div> 
-                      <div className="d-flex">
+                      <div className="d-flex playbtn">
                         &nbsp; &nbsp;
                         <div>
                         <button type="button" className="btn viewbtn btn-primary">
@@ -347,7 +347,7 @@ function Hero() {
                         <div>
                           <img src="Assets/Line 1.png" className="img-fluid line" alt="Line" />
                         </div>
-                        <div className="d-flex rectangle">
+                        <div className="d-flex rectangle origin1">
                         <div>
                           <img src="Assets/Rectangle 11.png" alt="Rectangle11" />
                         </div>
@@ -357,7 +357,7 @@ function Hero() {
                         <h5 className="axies axie">Axie Infinity: Raylights</h5>
                          
                       </div> 
-                      <div className="d-flex">
+                      <div className="d-flex playbtn">
                         &nbsp; &nbsp;
                         <div>
                         <button type="button" className="btn viewbtn btn-primary">

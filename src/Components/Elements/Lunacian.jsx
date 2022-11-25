@@ -2,6 +2,7 @@ import React from 'react'
 // import Badge from 'react-bootstrap/Badge';
 import { HiBars3BottomRight } from 'react-icons/hi2';
 import sales from "../Utils/Sales.json"
+import recent from "../Utils/Recent.json"
 
 function Lunacian() {
   return (
@@ -156,9 +157,12 @@ function Lunacian() {
                       </div>
                       <div>
                       <div>
-                      <span className="badge location text-bg-secondary" >
+                      <span className="badge location text-bg-secondary"  style={{borderColor:item.color}}>
                           <img src={item.locimg} alt="location"/> &nbsp;
-                          {item.location}</span>  
+                          <span style={{color:item.color }}>
+                          {item.location}
+                          </span>
+                          </span>  
                       </div>
                           <div>
                           <p className='hours' >{item.hour}</p>
@@ -183,6 +187,92 @@ function Lunacian() {
               </div>
             ))
            }
+        </div>
+        <div className="row sale">
+        <div class=" px-2 d-flex justify-content-between">
+                    <div>
+                    <span className='top'>
+                    Recent 
+                    Sales
+                    </span>
+                    
+                    
+                    <span className="badge text-bg-secondary">All</span>
+                  <span className="badge text-bg-secondary">Axie</span>
+                  <span className="badge text-bg-secondary">Land</span>
+                  <span className="badge text-bg-secondary">Item</span>
+                  <span className="badge text-bg-secondary">Rune</span>
+                  <span className="badge text-bg-secondary">Charm</span>
+                    </div>
+                  
+                  <div>
+                  
+                  <span className="badge text-bg-secondary">24H</span>
+                  <span className="badge text-bg-secondary">7D</span>
+                  <span className="badge text-bg-secondary">30D</span>
+                   
+                  </div>
+                  </div>
+        </div>
+        <div className="row mt-5">
+          {
+            recent.map(item=>(
+              <div className="col-md-4">
+          <div class="card lunacian-card mb-3" >
+  <img src={item.img} className="img-fluid position-relative" alt="..."/>
+  <span className='position-absolute m-3 p-2' style={{color:item.color,backgroundColor:"#1B2130BF"}}> #345678</span>
+  <div class="card-body">
+  <h5>{item.txt}</h5>
+    <span >
+    {item.para}</span>
+  </div>
+</div>
+          </div>
+            ))
+          }
+        </div>
+        <div className="row sale">
+        <div class=" px-2 d-flex justify-content-between">
+                    <div>
+                    <span className='top'>
+                    Recent 
+                    Listing
+                    </span>
+                    
+                    
+                    <span className="badge text-bg-secondary">All</span>
+                  <span className="badge text-bg-secondary">Axie</span>
+                  <span className="badge text-bg-secondary">Land</span>
+                  <span className="badge text-bg-secondary">Item</span>
+                  <span className="badge text-bg-secondary">Rune</span>
+                  <span className="badge text-bg-secondary">Charm</span>
+                    </div>
+                  
+                  <div>
+                  
+                  <span className="badge text-bg-secondary">24H</span>
+                  <span className="badge text-bg-secondary">7D</span>
+                  <span className="badge text-bg-secondary">30D</span>
+                   
+                  </div>
+                  </div>
+        </div>
+        <div className="row mt-5">
+          {
+            recent.map(item=>(
+              <div className="col-md-4">
+          <div class="card lunacian-card mb-3" >
+  <img src={item.img} className="img-fluid position-relative" alt="..."/>
+  <span className='position-absolute m-3 p-2' style={{color:item.color,backgroundColor:"#1B2130BF"}}> #345678</span>
+  <div class="card-body">
+  <h5>{item.txt}</h5>
+    <span >
+    {item.para}</span>
+  </div>
+</div>
+          </div>
+            ))
+          }
         </div>
         </div>
         

@@ -17,7 +17,7 @@ export default function Drawer() {
 
   return (
     <>
-      <Button variant="primary" style={{background:"#000",border:"none"}}  onClick={handleShow}>
+      <Button variant="primary" style={{background:"linear-gradient(95.02deg, #FF82D4 0%, #1B1378 100%)",border:"none"}}  onClick={handleShow}>
         <BsList size={"30px"} />
       </Button>
 
