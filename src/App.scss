@@ -16,7 +16,7 @@ color: #EBEEF2;
  
   
 .btn0{
-  // color: #545D69 !important;
+  // color:rgba(27, 33, 48, 0.75) !important;
 
   background-color: transparent !important;
   border: none !important;
@@ -118,7 +118,7 @@ padding: 10px 80px 10px 40px;
 
   .dashboard{
     background-color: rgb(38, 48, 75);
-    ;
+    
     // color:#545D69 !important;
     // width: 100vw;
   height: 100vh;
@@ -206,6 +206,8 @@ line-height: 32px;
   }
   .card-stat{
     border: none !important;
+    background: rgb(38, 48, 75);
+    
     
   }
     h5{
@@ -228,13 +230,16 @@ font-size: 24px;
 line-height: 36px;
     padding-top: 13px !important;
     padding-bottom: 13px !important;;
-    background: linear-gradient(95.02deg, #FF82D4 0%, #1B1378 100%) !important;
+    background:  linear-gradient(95.02deg, #FF82D4 0%, #1B1378 100%);;
+    // mix-blend-mode: soft-light;
+    opacity: 0.75 !important;
 
 
   }
   .card-body{
 
-    background: #1B2130BF;
+    background: rgb(38, 48, 75);
+    // border-radius: 12px !important;
 
   }
   .cryptocard{
@@ -518,6 +523,9 @@ font-size: 15px;
     padding-left: 0px !important;
     padding-right: 0px !important;
     border: none !important;
+    // background-color: #191E2C !important;
+    // background: rgb(38, 48, 75);
+  
   }
   .card-header{
     font-family: 'Poppins';
@@ -572,6 +580,7 @@ color: #FF6262;
     // border: none !important;
     border-radius: 15px !important;
     border-color: #1B2130 !important;
+    background-color: #191E2C !important;
   }
   .card-body{
     border-bottom-left-radius: 10px !important;
@@ -635,7 +644,7 @@ line-height: 170%;
   .lunacian-card{
     // background-color: ;
     border: none !important;
-    border-radius: 15px !important;
+    border-radius: 17px !important;
     h5{
       font-family: 'Poppins';
 font-style: normal;
@@ -666,7 +675,8 @@ letter-spacing: 0.008em;
       border-bottom-right-radius: 15px !important;
       // background-color: #131722;
       background-color: #1B2130BF;
-      color: white !important;;
+      color: white !important;
+      background: rgb(38, 48, 75);
     }
   }
   .stat{
@@ -678,6 +688,7 @@ letter-spacing: 0.008em;
       padding-left: 0px !important;
       padding-right: 0px !important;
       border: none !important;
+      background: rgb(38, 48, 75);
     }
   }
   h5{
