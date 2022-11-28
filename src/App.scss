@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Nosifer&family=Oswald:wght@200;300;600&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@300&family=Rubik+Wet+Paint&display=swap');
+
 .sidebar{
   // background-color: rgba(27, 33, 48, 0.75);
   margin-left: -13px !important;
-  width: 350px;
+  width: 345px;
   height: 100vh;
   h1{
     margin-top: 30px !important;
@@ -17,6 +18,7 @@ color: #EBEEF2;
   
 .btn0{
   // color:rgba(27, 33, 48, 0.75) !important;
+  color: #545D69!important;
 
   background-color: transparent !important;
   border: none !important;
@@ -28,7 +30,7 @@ color: #EBEEF2;
   padding-left: 15px !important;
   font-family: 'Poppins';
 font-style: normal;
-font-weight: 500;
+font-weight: 700;
 font-size: 15px;
 &:hover{
   background: #131722BF !important;
@@ -38,6 +40,7 @@ font-size: 15px;
 .btn1{
   background-color: transparent !important;
   border: none !important;
+  color: #545D69!important;
   // margin-top: 100px;
   margin-left:40px ;
   padding-top: 10px !important;
@@ -46,7 +49,7 @@ font-size: 15px;
   padding-left: 15px !important;
   font-family: 'Poppins';
 font-style: normal;
-font-weight: 500;
+font-weight: 700;
 font-size: 15px;
 // line-height: 170%;
 &:hover{
@@ -56,6 +59,7 @@ font-size: 15px;
 .btn2{
   background-color: transparent !important;
   border: none !important;
+  color: #545D69!important;
   // margin-top: 100px;
   margin-left:40px ;
   padding-top: 10px !important;
@@ -64,7 +68,7 @@ font-size: 15px;
   padding-left: 15px !important;
   font-family: 'Poppins';
 font-style: normal;
-font-weight: 500;
+font-weight: 700;
 font-size: 15px;
 // line-height: 170%;
 &:hover{
@@ -74,6 +78,7 @@ font-size: 15px;
 .btn3{
   background-color: transparent !important;
   border: none !important;
+  color: #545D69!important;
   // margin-top: 100px;
   margin-left:40px ;
   padding-top: 10px !important;
@@ -82,7 +87,7 @@ font-size: 15px;
   padding-left: 15px !important;
   font-family: 'Poppins';
 font-style: normal;
-font-weight: 500;
+font-weight: 700;
 font-size: 15px;
 // line-height: 170%;
 &:hover{
@@ -92,6 +97,7 @@ font-size: 15px;
 .btn4{
   background-color: transparent !important;
   border: none !important;
+  color: #545D69!important;
   // margin-top: 100px;
   margin-left:40px ;
   padding-top: 10px !important;
@@ -100,7 +106,7 @@ font-size: 15px;
   padding-left: 15px !important;
   font-family: 'Poppins';
 font-style: normal;
-font-weight: 500;
+font-weight: 700;
 font-size: 15px;
 // line-height: 170%;
 &:hover{
@@ -127,6 +133,7 @@ padding: 10px 80px 10px 40px;
 }
 .header{
   display: none !important;
+  background-color: rgb(38, 48, 75) !important;
 }
 // .sidebar{
 //   color: white;
@@ -178,6 +185,7 @@ font-style: normal;
 font-weight: 600;
 font-size: 18px;
 line-height: 170%;
+color: #545D69 !important;
   }
   .new-price{
     width: 200px;
@@ -190,6 +198,9 @@ font-style: normal;
 font-weight: 700;
 font-size: 24px;
 line-height: 32px;
+  }
+  .hero-stats{
+    margin-left: 10px;
   }
   .viewbtn{
     border: 1px solid #FF82D4  ;
@@ -223,6 +234,7 @@ line-height: 32px;
     
 
   .card-header{
+    
     font-family: 'Poppins';
 font-style: normal;
 font-weight: 600;
@@ -230,9 +242,9 @@ font-size: 24px;
 line-height: 36px;
     padding-top: 13px !important;
     padding-bottom: 13px !important;;
-    background:  linear-gradient(95.02deg, #FF82D4 0%, #1B1378 100%);;
-    // mix-blend-mode: soft-light;
-    opacity: 0.75 !important;
+    background: linear-gradient(95.02deg, #FF82D4 0%, #1B1378 100%) !important;
+// mix-blend-mode: soft-light !important;
+opacity: 2.95 !important;
 
 
   }
@@ -256,7 +268,7 @@ font-style: normal;
 font-weight: 600;
 font-size: 18px;
 line-height: 170%;
-color: #545D69;
+color: #545D69 !important;
   }
   .price{
     font-family: 'Poppins';
@@ -316,12 +328,12 @@ color: white;
 }
 .welcom{
   // margin-left: -12px;
-  padding-left: 17px !important;
+  // padding-left: 17px !important;
   background-color:  #131722 !important;
   height: 100vh !important;
   overflow-y: scroll;
   overflow-x: hidden;
-  width: calc(100% - 310px)
+  width: calc(100% - 320px) ;
 
 }
 .game{
@@ -346,10 +358,11 @@ color: white;
 height: 27px;
 font-family: 'Poppins';
 font-style: normal;
-font-weight: 500;
+font-weight: 600;
 font-size: 16px;
 line-height: 170%;
 letter-spacing: 0.005em;
+color: #545D69;
     }
     h6{
       width: 265px;
@@ -366,13 +379,14 @@ line-height: 130%;
 }
 .offcanvas-body{
   // backdrop-filter: blur(10px);
-  background-color:rgba(0, 0, 0, 0.87);
+
+  background-color:rgb(38, 48, 75);
   // background-color: rgb(155 121 121 / 100%);
   -webkit-tap-highlight-color: transparent;
   // width: 30% !important;
 }
 .offcanvas-header{
-background-color:rgba(27, 33, 48, 0.75);
+background-color:rgb(38, 48, 75);
 
 
 }
@@ -525,7 +539,25 @@ font-size: 15px;
     border: none !important;
     // background-color: #191E2C !important;
     // background: rgb(38, 48, 75);
+    p{
+      color: #545D69;
+      font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 170%;
+letter-spacing: 0.005em;
+    }
   
+  }
+  .skymavis{
+    color: #545D69;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 170%;
+letter-spacing: 0.005em;
   }
   .card-header{
     font-family: 'Poppins';
@@ -618,16 +650,17 @@ font-style: normal;
 font-weight: 600;
 font-size: 28px;
 line-height: 130%;
-/* or 36px */
+
     }
-    span{
+    .tactical{
       width: 330px;
 height: 24px;
 font-family: 'Poppins';
 font-style: normal;
-font-weight: 400;
-font-size: 14px;
+font-weight: 600;
+font-size: 15px;
 line-height: 170%;
+color: #545D69 ;
     }
   
   }
@@ -641,6 +674,15 @@ line-height: 170%;
   }
 }
 .lunacian{
+  .guild{
+    color: #545D69;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600 !important;
+font-size: 14px;
+line-height: 170%;
+letter-spacing: 0.008em;
+  }
   .lunacian-card{
     // background-color: ;
     border: none !important;
@@ -734,6 +776,8 @@ font-style: normal;
 font-weight: 600;
 font-size: 18px;
 line-height: 170%;
+color: #545D69 !important;
+
   }
   .new-price{
     width: 200px;
@@ -758,7 +802,7 @@ line-height: 170%;
 text-align: center;
 letter-spacing: 0.005em;
 border-radius: 8px;
-// color: rgba(27, 33, 48, 0.75) !important;
+color: #545D69 !important;
 &:hover{
   background: rgba(27, 33, 48, 0.75) !important;
   color: white !important;
@@ -803,12 +847,13 @@ line-height: 170%;
     margin-left: 10px;
     font-family: 'Poppins';
   font-style: normal;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 12px;
   // line-height: 170%;
   /* or 20px */
   color: white !important;;
   letter-spacing: 0.008em;
+  color: #545D69 !important;
   }
   .price1{
     font-family: 'Poppins';
@@ -873,10 +918,6 @@ color: #DADEE3;
     img{
       margin-left:13px !important ;
       margin-bottom: 10px;
-    }
-    h5{
-      // margin-left: 25px !important;
-      // margin-bottom: 10px !important;
     }
    
   }

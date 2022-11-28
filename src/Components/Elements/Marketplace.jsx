@@ -1,4 +1,6 @@
-import React from 'react'
+// import React from 'react'
+import React from 'react';
+// import {Carousel as reactCarousel} from 'react-bootstrap/Carousel';
 import {BsApple} from 'react-icons/bs'
 import {AiFillWindows,AiFillAndroid} from 'react-icons/ai'
 import Carousel from "react-multi-carousel";
@@ -7,6 +9,7 @@ import {BsInfoCircleFill} from "react-icons/bs"
 import game from "../Utils/Games.json";
 // import {BsFillPlayFill} from "react-icons/bs"
 function Marketplace() {
+
   const responsive = {
     superLargeDesktop: {
       // the naming can be any, depends on you.
@@ -52,13 +55,13 @@ function Marketplace() {
           <div className='install d-flex justify-content-between'>
           <div className='d-flex hub'>
             <div className='mt-3'>
-              <span className='infinity'>Axie Infinity: Origins</span> <br />
-              <span>A PVP tactical card </span> <span>battler Install Mavis Hub</span>
+              <span className='infinity' >Axie Infinity: Origins</span> <br />
+              <span className='tactical'>A PVP tactical card battler Install Mavis Hub</span>
             </div>
             <div className='mt-3'>
-              <BsApple className='mt-1' size={"25px"}/> &nbsp; 
-              <AiFillWindows className='mt-2' size={"30px"}/> &nbsp; 
-              <AiFillAndroid className='mt-2' size={"30px"}/> &nbsp; 
+              <BsApple className='mt-1' size={"25px"} style={{color:"#545D69 "}}/> &nbsp; 
+              <AiFillWindows className='mt-2' size={"30px"} style={{color:"#545D69 "}}/> &nbsp; 
+              <AiFillAndroid className='mt-2' size={"30px"} style={{color:"#545D69 "}}/> &nbsp; 
             </div>
             
           </div>
@@ -72,6 +75,45 @@ function Marketplace() {
           
         </div>
         <div className="row mt-5 ">
+        {/* <reactCarousel activeIndex={index} onSelect={handleSelect}>
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src="holder.js/800x400?text=First slide&bg=373940"
+          alt="First slide"
+        />
+        <Carousel.Caption>
+          <h3>First slide label</h3>
+          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src="holder.js/800x400?text=Second slide&bg=282c34"
+          alt="Second slide"
+        />
+
+        <Carousel.Caption>
+          <h3>Second slide label</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src="holder.js/800x400?text=Third slide&bg=20232a"
+          alt="Third slide"
+        />
+
+        <Carousel.Caption>
+          <h3>Third slide label</h3>
+          <p>
+            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+          </p>
+        </Carousel.Caption>
+      </Carousel.Item>
+    </reactCarousel> */}
                 <Carousel
                   responsive={responsive}
                   // autoPlay="true"
@@ -148,7 +190,7 @@ function Marketplace() {
               <div className="card-body py-4">
                 <p className="card-text">
                   <h6>{item.txt}</h6>
-                  <span>{item.para}</span>
+                  <span className='skymavis'>{item.para}</span>
                 </p>
               </div>
             </div>

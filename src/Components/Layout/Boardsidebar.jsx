@@ -45,7 +45,7 @@ function Boardsidebar() {
               </h1>
             </div>
             <div>
-              <Link to="/">
+              <Link to="/" >
                 <button type="button" className="btn btn0 btn-primary">
                   {" "}
                   <AiFillHome

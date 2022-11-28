@@ -45,7 +45,7 @@ function Lunacian() {
                       <div>
                         <img
                           src="Assets/c1.png"
-                          className="img=fluid"
+                          className="img-fluid"
                           style={{ width: "30px", height: "40px",marginLeft:"7px" }}
                           alt="card1 pic"
                         />
@@ -68,7 +68,7 @@ function Lunacian() {
                       <div>
                         <img
                           src="Assets/c4.png"
-                          className="img=fluid"
+                          className="img-fluid"
                           style={{ width: "30px", height: "40px" ,marginLeft:"7px" }}
                           alt="card1 pic"
                         />
@@ -93,7 +93,7 @@ function Lunacian() {
                       <div>
                         <img
                           src="Assets/c1.png"
-                          className="img=fluid"
+                          className="img-fluid"
                           style={{ width: "30px", height: "40px",marginLeft:"7px"  }}
                           alt="card1 pic"
                         />
@@ -165,7 +165,7 @@ function Lunacian() {
                           </span>  
                       </div>
                           <div>
-                          <p className='hours' >{item.hour}</p>
+                          <p className='hours'>{item.hour}</p>
                           </div>
                       </div>
   
@@ -220,10 +220,10 @@ function Lunacian() {
               <div className="col-md-4">
           <div class="card lunacian-card mb-3" >
   <img src={item.img} className="img-fluid position-relative" alt="..."/>
-  <span className='position-absolute m-3 p-2' style={{color:item.color,backgroundColor:"#1B2130BF"}}> #345678</span>
+  <span className='position-absolute m-3 p-1' style={{color:item.color,backgroundColor:"rgb(38, 48, 75)"}}> #345678</span>
   <div class="card-body">
   <h5>{item.txt}</h5>
-    <span >
+    <span className='guild' >
     {item.para}</span>
   </div>
 </div>
@@ -266,7 +266,7 @@ function Lunacian() {
   <span className='position-absolute m-3 p-2' style={{color:item.color,backgroundColor:"#1B2130BF"}}> #345678</span>
   <div class="card-body">
   <h5>{item.txt}</h5>
-    <span >
+    <span className='guild'>
     {item.para}</span>
   </div>
 </div>

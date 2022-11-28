@@ -10,10 +10,10 @@ function Base(props) {
             <Header/>
             </div>
             <div className="row">
-                <div className="col-md-3  col-12">
+                <div className="col-md-3 boardsidebar ">
                     <Boardsidebar/>
                 </div>
-                <div className="col-md-9 col-12 welcom">
+                <div className="col-md-9  welcom">
                     {props.children}
                 </div>
             </div>

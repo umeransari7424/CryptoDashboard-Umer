@@ -137,8 +137,8 @@ function Hero() {
                       <div>
                         <img
                           src={item.img}
-                          className="img=fluid"
-                          style={{ width: "50px", height: "64.91px" }}
+                          className="img-fluid"
+                          style={{ width: "40px", height: "50.91px",marginLeft:"5px"}}
                           alt="card1 pic"
                         />
                       </div>
@@ -162,7 +162,7 @@ function Hero() {
                       <div>
                         <img
                           src="Assets/c5.png"
-                          className="img=fluid"
+                          className="img-fluid hero-stats"
                           style={{ width: "30px", height: "40px" }}
                           alt="card1 pic"
                         />
@@ -179,7 +179,7 @@ function Hero() {
                       <div>
                         <img
                           src="Assets/c1.png"
-                          className="img=fluid"
+                          className="img-fluid hero-stats"
                           style={{ width: "30px", height: "40px" }}
                           alt="card1 pic"
                         />
@@ -204,7 +204,7 @@ function Hero() {
                       <div>
                         <img
                           src="Assets/c4.png"
-                          className="img=fluid"
+                          className="img-fluid hero-stats"
                           style={{ width: "30px", height: "40px" }}
                           alt="card1 pic"
                         />
@@ -229,7 +229,7 @@ function Hero() {
                       <div>
                         <img
                           src="Assets/c1.png"
-                          className="img=fluid"
+                          className="img-fluid hero-stats"
                           style={{ width: "30px", height: "40px" }}
                           alt="card1 pic"
                         />
